@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  Load
 //
-//  Created by Matthieu PASSEREL on 13/11/2017.
-//  Copyright © 2017 Matthieu PASSEREL. All rights reserved.
+//  Created by Rodolphe DUPUY on 22/10/2020.
 //
 
 import UIKit
@@ -14,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

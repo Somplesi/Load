@@ -2,24 +2,23 @@
 //  ViewController.swift
 //  Load
 //
-//  Created by Matthieu PASSEREL on 13/11/2017.
-//  Copyright © 2017 Matthieu PASSEREL. All rights reserved.
+//  Created by Rodolphe DUPUY on 22/10/2020.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var customLoadingView: CustomLoadingView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        customLoadingView.initialiserShape()
     }
-
-
 }
 
